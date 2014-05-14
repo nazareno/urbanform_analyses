@@ -15,32 +15,7 @@ distances <- distances[,c(1, 36, 25:33, 24)]
 distances[distances == -1] <- NA
 distances$House <- as.factor(distances$House)
 distances$ID <- as.factor(distances$ID)
-distances <- distances[tolower(distances$city) %in% tolower(c("Albrandswaard", 
-                                         "Barendrecht", 
-                                         "Bernisse", 
-                                         "Binnenmaas", 
-                                         "Brielle", 
-                                         "Capelle aan den Ijssel", 
-                                         "Cromstrijen", 
-                                         "Dirksland", 
-                                         "Goedereede", 
-                                         "Hellevoetsluis", 
-                                         "Korendijk", 
-                                         "Krimpen aan den Ijssel", 
-                                         "Lansingerland", 
-                                         "Maassluis", 
-                                         "Middelharnis", 
-                                         "Oostflakkee", 
-                                         "Oud-Beijerland", 
-                                         "Ridderkerk", 
-                                         "Rotterdam",
-                                          "Rozenburg",
-                                         "Schiedam", 
-                                         "Spijkenisse", 
-                                         "Strijen", 
-                                         "Vlaardingen",  
-                                         "Westvoorne", 
-                                         "Zuidplas" )),]
+distances <- distances[tolower(distances$city) %in% get_all_cities_lc(),]
 distances$city <- NULL
 
 # CORREÇÕES
