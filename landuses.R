@@ -45,7 +45,7 @@ ggplot(lu.long.p, aes(x=value)) +
 dev.off()
 
 pdf("scatterplot-matrix-lu.pdf", width = 20, height = 20)
-ggpairs(na.omit(lu), columns = 2:18)
+ggpairs(na.omit(lu), columns = 2:17)
 dev.off()
 #dev.copy(pdf, "scatterplot-matrix-lu.pdf", width = 16, height = 12)
 
