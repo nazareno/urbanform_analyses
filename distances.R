@@ -15,10 +15,10 @@ corrigir_distancias <- function(distances){
   distances$city <- NULL
   
   # CORREÇÕES
-  distances[distances$ID == 46 & distances$House == 4,]$bos_distance <- 2927.73
-  distances[distances$ID == 261 & distances$House == 1,]$bos_distance <- 2919.11
-  distances[distances$ID == 336 & distances$House == 1,]$bus_distance <- 260.9
-  distances[distances$ID == 4 & distances$House == 5,]$bus_distance <- NA
+  distances[distances$ID == 14 & distances$House == 1,]$bus_distance <- 260.9
+  distances[distances$ID == 95 & distances$House == 1,]$bos_distance <- 2919.11
+  distances[distances$ID == 162 & distances$House == 4,]$bos_distance <- 2927.73
+  distances[distances$ID == 2 & distances$House == 5,]$bus_distance <- NA
   distances
 }
 
@@ -99,10 +99,14 @@ dev.off()
 
 # Lendo demais dados dos respondents para pegar início e fim das casas e idades
 data_file = "dados/verhuisgeschiedenis_350.csv"
-resps.f.long <- ler_e_corrigir_casas(data_file)
+resps.f.long.lido <- ler_e_corrigir_casas(data_file) # revisar essa função
+resps.f.long.lido$verv1werk <- NULL
+resps.f.long.lido$time <- as.factor(resps.f.long.lido$time)
 
+# (lendo distâncias de novo caso a variável tenha sido editada acima)
 distances <- read.csv('dados/House-postcode-degreejunto.txt')
-distances <- distances[,c(1, 36, 25:33, 24)]
+distances <- distances[,c(4, 36, 25:33, 24)]
+distances <- rename(distances, c(Respondent_ID = "ID"))
 distances <- corrigir_distancias(distances)
 # TIRANDO SUBRAY E TRAM
 distances$subway_distance<- NULL
@@ -110,9 +114,7 @@ distances$tram_distance <- NULL
 
 distances$time <- distances$House
 distances$House <- NULL
-resps.f.long$verv1werk <- NULL
-resps.f.long <- merge(resps.f.long, distances, by = c("ID", "time"))
-
+resps.f.long <- merge(resps.f.long.lido, distances, by = c("ID", "time"))
 
 # m -> km
 resps.f.long[,6:12] <- resps.f.long[,6:12] / 1000
@@ -145,6 +147,7 @@ plot_distance_sequence <- function(distances.all, distance_focused, pal){
   #print(resps.seq[1:10,], format = "STS")  
   just_the_plots(resps.seq, paste0(distance_focused, "-abs"), states_pal)
   
+  # POR IDADE
   focused_data.idade <- focused_data[!is.na(focused_data$geborenjaar) & focused_data$geborenjaar != 999,]
   focused_data.idade$woonbeg <- focused_data.idade$woonbeg- focused_data.idade$geborenjaar
   focused_data.idade$woonend <- focused_data.idade$woonend- focused_data.idade$geborenjaar
@@ -159,6 +162,13 @@ plot_distance_sequence <- function(distances.all, distance_focused, pal){
                         #right = 0, gaps = 0,
                         alphabet = states_alph)
   just_the_plots(resps.seq.i, paste0(distance_focused, "-age"), states_pal)  
+  
+  # POR CASA
+  focused_wide <- dcast(focused_data, ID ~ house, value.var = "value" )
+  resps.seq.casa <- seqdef(focused_wide[,2:ncol(focused_wide)], 
+                           id = focused_wide$ID)
+  just_the_plots(resps.seq.casa, paste0(distance_focused, "-house"), states_pal)    
+  
 }
 
 just_the_plots <- function(resps.seq, distance_focused, states_pal){
