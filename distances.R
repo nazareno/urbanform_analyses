@@ -36,8 +36,24 @@ DISTANCE_LEVELS <- c(0, 1, 3, 5, 10, 20, 100)
 theme_set(theme_bw())
 
 # Lendo as distâncias de cada casa 
-distances <- read.csv('dados/House-postcode-degreejunto.txt')
-distances <- distances[,c(1, 36, 25:33, 24)]
+anexa_distancia <- function(df, datafile, housenumber){
+  tmp <- read.table(datafile, header = TRUE, fileEncoding = "UTF-16", sep = '\t')
+  tmp <- cbind(tmp, House = rep(housenumber, NROW(tmp$ID)))
+  rbind(df, tmp);
+}  
+distances <- read.table('dados/Distances//House1_271112.txt', header = TRUE, fileEncoding = "UTF-16", sep = '\t')
+distances <- cbind(distances, House = rep(1, NROW(distances$ID)))
+distances <- anexa_distancia(distances, 'dados/Distances//House2_271112.txt', 2)
+distances <- anexa_distancia(distances, 'dados/Distances//House3_271112.txt', 3)
+distances <- anexa_distancia(distances, 'dados/Distances//House4_271112.txt', 4)
+distances <- anexa_distancia(distances, 'dados/Distances//House5_271112.txt', 5)
+
+x<- read.csv('dados/House-postcode-degreejunto.txt')
+names(x[,c(1, 36, 25:33, 24)])
+names(distances)
+
+# PAREI AQUI. FALTA A CIDADE. E CORRIGIR O ID EM DISTANCE? COMO FICOU? 
+
 distances <- corrigir_distancias(distances)
 distances.long <- melt(distances, id.vars = c("ID", "House"))
 # m -> km
