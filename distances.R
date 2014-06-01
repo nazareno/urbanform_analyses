@@ -7,6 +7,8 @@ require("GGally")
 setwd('/Users/nazareno/Documents/workspace/urbanform_analyses')
 source("../lifecourse_analyses/mobility_functions.R")
 
+OUTPUT_DIR="figures/"
+
 corrigir_distancias <- function(distances){
   distances[distances == -1] <- NA
   distances$House <- as.factor(distances$House)
@@ -62,7 +64,7 @@ distances.long$value <- distances.long$value / 1000
 cdf <- ddply(distances.long, "variable", summarise, value.mean=mean(value, na.rm = TRUE))
 
 # HISTOGRAMAS:
-pdf("distances-histograms.pdf", width = 18, height = 3 )
+pdf(paste0(OUTPUT_DIR,"distances-histograms.pdf"), width = 18, height = 3 )
 # apenas para plotar:
 distances.long.p <- distances.long
 distances.long.p[!is.na(distances.long.p$value) & distances.long.p$value >= 30,]$value <- 30
@@ -75,7 +77,7 @@ ggplot(distances.long.p, aes(x=value)) +
   scale_x_continuous(labels= c(seq(0, 29, by=10), "30+"))
 dev.off()
 
-pdf("scatterplot-matrix-distances.pdf", width = 16, height = 12)
+pdf(paste0(OUTPUT_DIR,"scatterplot-matrix-distances.pdf"), width = 16, height = 12)
 ggpairs(na.omit(distances)/1000, columns = 3:11)
 #dev.copy(pdf, "scatterplot-matrix-distances.pdf", width = 16, height = 12)
 dev.off()
@@ -92,21 +94,21 @@ distances.long <- adiciona_fator_niveldedistancia(distances.long)
 distances.long$part = factor(distances.long$part, rev(levels(distances.long$part)))
 
 # Salvando 3 figuras para aproveitar as melhores escalas
-pdf("distances-histograms-comfaixas1.pdf", width = 36, height = 3 )
+pdf(paste0(OUTPUT_DIR,"distances-histograms-comfaixas1.pdf"), width = 36, height = 3 )
 ggplot(distances.long, aes(x=value, fill = part)) +
   geom_histogram( binwidth = .5) + 
   facet_grid(. ~ variable, scales = "free" ) +
   scale_fill_brewer(type = "seq", palette = "PuBu")
 dev.off()
 
-pdf("distances-histograms-comfaixas2.pdf", width = 36, height = 3 )
+pdf(paste0(OUTPUT_DIR,"distances-histograms-comfaixas2.pdf"), width = 36, height = 3 )
 ggplot(distances.long, aes(x=value, fill = part)) +
   geom_histogram( binwidth = 1) + 
   facet_grid(. ~ variable, scales = "free" ) +
   scale_fill_brewer(type = "seq", palette = "PuBu")
 dev.off()
 
-pdf("distances-histograms-comfaixas3.pdf", width = 36, height = 3 )
+pdf(paste0(OUTPUT_DIR,"distances-histograms-comfaixas3.pdf"), width = 36, height = 3 )
 ggplot(distances.long, aes(x=value, fill = part)) +
   geom_histogram() + 
   facet_grid(. ~ variable, scales = "free" ) +
@@ -188,19 +190,19 @@ plot_distance_sequence <- function(distances.all, distance_focused, pal){
 }
 
 just_the_plots <- function(resps.seq, distance_focused, states_pal){
-  pdf(paste0("distance-abs-exemplo-", distance_focused,".pdf"), width = 6, height = 4 )
+  pdf(paste0(OUTPUTDIR, "distance-abs-exemplo-", distance_focused,".pdf"), width = 6, height = 4 )
   seqiplot(resps.seq, border = NA, withlegend = "right", cex.legend = 0.5, missing.color = "white", cpal = states_pal)
   dev.off()
   
-  pdf(paste0("distance-abs-todos-end-", distance_focused,".pdf"), width = 6, height = 4 )
+  pdf(paste0(OUTPUTDIR, "distance-abs-todos-end-", distance_focused,".pdf"), width = 6, height = 4 )
   seqIplot(resps.seq, withlegend = "right", missing.color = "white", sortv = "from.end", cex.legend = 0.5, cpal = states_pal)
   dev.off()
   
-  pdf(paste0("distance-abs-todos-start-", distance_focused,".pdf"), width = 6, height = 4 )
+  pdf(paste0(OUTPUTDIR, "distance-abs-todos-start-", distance_focused,".pdf"), width = 6, height = 4 )
   seqIplot(resps.seq, withlegend = "right", missing.color = "white", sortv = "from.start", cex.legend = 0.5, cpal = states_pal)
   dev.off()
   
-  pdf(paste0("distance-dist-", distance_focused,".pdf"), width = 6, height = 4 )
+  pdf(paste0(OUTPUTDIR, "distance-dist-", distance_focused,".pdf"), width = 6, height = 4 )
   seqdplot(resps.seq, withlegend = "right", cex.legend = 0.5, cpal = states_pal)
   dev.off()
 }
@@ -231,6 +233,6 @@ plot_distance_sequence(distances.all,
 #seqfplot(resps.seq,  border = NA, withlegend = "right", missing.color = "white", 
 #         weighted = FALSE, cex.legend = 0.5)
 
-pdf("distance-abs-freq.pdf", width = 6, height = 4 )
+pdf(paste0(OUTPUT_DIR, "distance-abs-freq.pdf"), width = 6, height = 4 )
 seqdplot(resps.seq, withlegend = "right")
 dev.off()
