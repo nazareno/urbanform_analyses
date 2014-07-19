@@ -3,6 +3,7 @@ require("TraMineR")
 require("reshape2")
 require("ggplot2")
 require("GGally")
+require("cluster")
 
 setwd('/Users/nazareno/Documents/workspace/urbanform_analyses')
 source("../lifecourse_analyses/mobility_functions.R")
@@ -32,7 +33,7 @@ lu.long <- melt(lu, id.vars = c("ID", "House"))
 
 cdf <- ddply(lu.long, "variable", summarise, value.mean=mean(value, na.rm = TRUE))
 
-pdf("land_uses-histograms.pdf", width = 46, height = 3 )
+pdf("figures/land_uses-histograms.pdf", width = 46, height = 3 )
 lu.long.p <- lu.long
 #lu.long.p[!is.na(lu.long.p$value) & lu.long.p$value >= 30,]$value <- 30
 ggplot(lu.long.p, aes(x=value)) +
@@ -44,8 +45,43 @@ ggplot(lu.long.p, aes(x=value)) +
   #scale_x_continuous(labels= c(seq(0, 29, by=10), "30+"))
 dev.off()
 
-pdf("scatterplot-matrix-lu.pdf", width = 20, height = 20)
+pdf("figures/scatterplot-matrix-lu.pdf", width = 20, height = 20)
 ggpairs(na.omit(lu), columns = 2:17)
 dev.off()
 #dev.copy(pdf, "scatterplot-matrix-lu.pdf", width = 16, height = 12)
+
+pdf("figures/parcoord-lu.pdf", width = 20, height = 5)
+ggparcoord(lu, columns = 2:17, alphaLines = 0.07, scale = "globalminmax", order = "skewness")
+dev.off()
+
+lu.dists <- dist(lu[,2:17])
+#cluster = hclust(lu.dists, method = "complete")
+clustercomplete <- agnes(lu.dists, method = "complete")
+rect.hclust(cluster, k=5, border="red")
+
+groups <- cutree(cluster, k = 5)
+lu$cluster <- factor(groups, labels = paste("Cluster", 1:5))
+
+ggparcoord(lu, columns = 2:17, 
+           alphaLines = 0.07, 
+           scale = "globalminmax", 
+           order = "skewness", 
+           groupColumn = "cluster")
+
+# NAO CONSEGUI FAZER FUNCIONAR
+tmp <- na.omit(lu)
+ggpairs(tmp, columns = 2:17)
+
+# NAO CONSEGUI FAZER FUNCIONAR
+my_palette <- colorRampPalette(c("blue", "yellow"))(n = 180)
+pdf("clusters-heatmap.pdf", width = 8, height = 8 )
+heatmap.2(lu.dists, 
+          density.info="none", 
+          trace="none",  
+          #col=my_palette, 
+          #dendrogram="row",  
+          Rowv = as.dendrogram(cluster), # apply default clustering method
+          Colv = as.dendrogram(cluster)
+)
+dev.off()
 
