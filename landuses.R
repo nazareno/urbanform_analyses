@@ -135,4 +135,15 @@ ggplot(lu.long, aes(x=variable, y = value, colour=variable)) +
   facet_grid(cluster ~. ) + geom_boxplot(alpha = 0.7, outlier.colour = lu$variable) + 
   coord_flip()
 dev.off()
+
+pdf("figures/parcoord-lu.pdf", width = 20, height = 5)
+ggparcoord(lu, columns = 2:17, 
+           alphaLines = 0.07, 
+           scale = "globalminmax", 
+           order = "skewness", 
+           groupColumn = "cluster")
+dev.off()
+
+
+
 >>>>>>> FETCH_HEAD
