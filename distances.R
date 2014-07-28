@@ -166,6 +166,8 @@ plot_distance_sequence <- function(distances.all, distance_focused, pal){
                       #right = 0, gaps = 0,
                       alphabet = states_alph)
   
+  write.table(resps.seq, file = paste0("distances-seq-", distance_focused, ".txt"), quote = FALSE, sep = "\t", row.names = TRUE, col.names = FALSE)
+  
   just_the_plots(resps.seq, paste0(distance_focused, "-abs"), states_pal)
   
   print(paste("****", distance_focused))
@@ -278,4 +280,3 @@ plot_distance_sequence(distances.all,
 pdf(paste0(OUTPUT_DIR, "distance-abs-freq.pdf"), width = 6, height = 4 )
 seqdplot(resps.seq, withlegend = "right")
 dev.off()
-x
