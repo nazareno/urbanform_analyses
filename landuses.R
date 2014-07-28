@@ -5,7 +5,8 @@ require("ggplot2")
 require("GGally")
 require("cluster")
 
-setwd('/Users/nazareno/workspace/urbanform_analyses')
+# a linha abaixo é diferente para meus dois computadores
+setwd('/Users/nazareno/Documents/workspace/urbanform_analyses')
 source("../lifecourse_analyses/mobility_functions.R")
 
 get_all_cities_lc <- function(){
@@ -57,43 +58,6 @@ ggpairs(na.omit(lu), columns = 2:17)
 dev.off()
 #dev.copy(pdf, "scatterplot-matrix-lu.pdf", width = 16, height = 12)
 
-<<<<<<< HEAD
-pdf("figures/parcoord-lu.pdf", width = 20, height = 5)
-ggparcoord(lu, columns = 2:17, alphaLines = 0.07, scale = "globalminmax", order = "skewness")
-dev.off()
-
-lu.dists <- dist(lu[,2:17])
-#cluster = hclust(lu.dists, method = "complete")
-clustercomplete <- agnes(lu.dists, method = "complete")
-rect.hclust(cluster, k=5, border="red")
-
-groups <- cutree(cluster, k = 5)
-lu$cluster <- factor(groups, labels = paste("Cluster", 1:5))
-
-ggparcoord(lu, columns = 2:17, 
-           alphaLines = 0.07, 
-           scale = "globalminmax", 
-           order = "skewness", 
-           groupColumn = "cluster")
-
-# NAO CONSEGUI FAZER FUNCIONAR
-tmp <- na.omit(lu)
-ggpairs(tmp, columns = 2:17)
-
-# NAO CONSEGUI FAZER FUNCIONAR
-my_palette <- colorRampPalette(c("blue", "yellow"))(n = 180)
-pdf("clusters-heatmap.pdf", width = 8, height = 8 )
-heatmap.2(lu.dists, 
-          density.info="none", 
-          trace="none",  
-          #col=my_palette, 
-          #dendrogram="row",  
-          Rowv = as.dendrogram(cluster), # apply default clustering method
-          Colv = as.dendrogram(cluster)
-)
-dev.off()
-
-=======
 capwords <- function(s, strict = FALSE) {
   cap <- function(s) paste(toupper(substring(s, 1, 1)),
 {s <- substring(s, 2); if(strict) tolower(s) else s},
@@ -101,15 +65,13 @@ sep = "", collapse = " " )
 sapply(strsplit(s, split = " "), cap, USE.NAMES = !is.null(names(s)))
 }
 
-# fica ruim:
-# clusters = agnes(lu[,2:17], stand = TRUE, method = "ward")
+# Tentamos essa opção, mas fez menos sentido: 
+#clusters = agnes(lu[,2:17], stand = TRUE, method = "ward")
+#clusters.4 = cutree(clusters, 6)
+#table(clusters.4)
+#lu[,2:17] <- scale(lu[,2:17])
 
-clusters = agnes(lu[,2:17], stand = FALSE, method = "ward")
-clusters.4 = cutree(clusters, 4)
-table(clusters.4)
-#aggregate(lu[,2:17],list(clusters.4),median)
-
-# melhor ateh agora: 
+# O melhor ateh agora é sem normalização:
 clusters = hclust(dist(lu[,2:17]), method = "ward")
 clusters.4 = cutree(clusters, 4)
 table(clusters.4)
@@ -126,16 +88,6 @@ ggplot(lu.long, aes(x=variable, y = value, colour=variable)) +
 dev.off()
 #scale_x_continuous(labels= c(seq(0, 29, by=10), "30+"))
 
-lu[,2:17] <- scale(lu[,2:17])
-lu.long <- melt(lu, id.vars = c("ID", "House", "cluster"))
-levels(lu.long$variable) <- capwords(levels(lu.long$variable), strict = TRUE)
-pdf("lu-clusters-hclust-ward-scaled.pdf", width = 10, height = 15)
-ggplot(lu.long, aes(x=variable, y = value, colour=variable)) +
-  geom_point(alpha = 0.3, position = position_jitter(width = .2)) +
-  facet_grid(cluster ~. ) + geom_boxplot(alpha = 0.7, outlier.colour = lu$variable) + 
-  coord_flip()
-dev.off()
-
 pdf("figures/parcoord-lu.pdf", width = 20, height = 5)
 ggparcoord(lu, columns = 2:17, 
            alphaLines = 0.07, 
@@ -144,6 +96,104 @@ ggparcoord(lu, columns = 2:17,
            groupColumn = "cluster")
 dev.off()
 
+# ------------------
+# Colocando o LU junto com outras informações da casa para fazer um life trajectory
+lut <- data.frame(ID = lu[,"ID"], time = lu[,"House"], cluster = lu[,"cluster"])
+lut <- lut[!duplicated(lut),]
+
+data_file = "dados/verhuisgeschiedenis_350.csv"
+resps.f.long <- ler_e_corrigir_casas(data_file)
+resps.f.long$verv1werk <- NULL
+resps.f.long <- merge(resps.f.long, lut, by = c("ID", "time"))
+
+todos_os_plots <- function(resps.seq, strindex){
+  states_pal = c("#66c2a5",
+                 "#fc8d62",
+                 "#8da0cb",
+                 "#e78ac3") # missing
+  
+  pdf(paste0("lu-abs-",strindex,"-exemplo.pdf"), width = 6, height = 4 )
+  seqiplot(resps.seq, border = NA, withlegend = "right", cex.legend = 0.5, cpal = states_pal, missing.color = "white")
+  dev.off()
+  
+  pdf(paste0("lu-abs-", strindex, "-todos-start.pdf"), width = 6, height = 4 )
+  seqIplot(resps.seq, withlegend = "right", missing.color = "white", sortv = "from.start", cex.legend = 0.5, cpal = states_pal)
+  dev.off()
+  
+  pdf(paste0("lu-abs-", strindex, "-todos-end.pdf"), width = 6, height = 4 )
+  seqIplot(resps.seq, withlegend = "right", missing.color = "white", sortv = "from.end", cex.legend = 0.5, cpal = states_pal)
+  dev.off()
+  
+  #seqfplot(resps.seq,  border = NA, withlegend = "right", missing.color = "white", 
+  #         weighted = FALSE, cex.legend = 0.5, cpal = states_pal)
+  
+  pdf(paste0("lu-distribution-",strindex,".pdf"), width = 6, height = 4 )
+  seqdplot(resps.seq, withlegend = "right", cex.legend = 0.8, cpal = states_pal)
+  dev.off()
+  
+}
+
+# Baseado em casas
+lut.wide <- dcast(lut, ID ~ time, value.var = "cluster" )
+resps.seq.casa <- seqdef(lut.wide[,2:ncol(lut.wide)], 
+                         id = lut.wide$ID, 
+                         alphabet = levels(lut$cluster))
+
+todos_os_plots(resps.seq.casa, "index")
+
+table(seqlength(seqdss(resps.seq)))
+table(seqlength(seqdss(resps.seq))) / NROW(resps.seq)
+mean(seqlength(seqdss(resps.seq)))
 
 
->>>>>>> FETCH_HEAD
+
+# DOU baseado em idade
+resps.f.long.idade <- resps.f.long[!is.na(resps.f.long$geborenjaar) & resps.f.long$geborenjaar != 999,]
+resps.f.long.idade$woonbeg <- resps.f.long.idade$woonbeg- resps.f.long.idade$geborenjaar
+resps.f.long.idade$woonend <- resps.f.long.idade$woonend- resps.f.long.idade$geborenjaar
+
+resps.seq.i <- seqformat(resps.f.long.idade, id = "ID", 
+                         from = "SPELL", to = "STS", 
+                         process = FALSE, 
+                         begin = "woonbeg", end = "woonend", status = "cluster")
+
+resps.seq.i <- seqdef(resps.seq.i)
+#left = 0, 
+#right = 0, gaps = 0,
+
+todos_os_plots(resps.seq.i, "idade")
+
+
+# ====================
+# DOU baseado em anos
+resps.seq <- seqformat(resps.f.long, id = "ID", 
+                       from = "SPELL", to = "STS", 
+                       process = FALSE, 
+                       begin = "woonbeg", end = "woonend", status = "cluster")
+
+resps.seq <- seqdef(resps.seq, 
+                    #left = 0, 
+                    #right = 0, gaps = 0
+)
+
+todos_os_plots(resps.seq, "ano")
+
+
+# ANALISE DE EVENTOS
+#
+resps.seq.pe <- seqformat(resps.f.long, id = "ID", 
+                          from = "SPELL", to = "STS", 
+                          process = FALSE, 
+                          begin = "woonbeg", end = "woonend", status = "cluster")
+
+resps.seq.pe <- seqdef(resps.seq.pe, 
+                       left = "DEL", right = "DEL",
+                       alphabet = levels(resps.f.long$cluster))
+
+resps.seq.e <- seqecreate(resps.seq.pe)
+seqefsub(resps.seq.e, minSupport = 5, maxK = 1)
+
+resps.ldist <- seqistatd(resps.seq)
+n.states <- apply(resps.ldist,1,function(x) sum(x != 0))
+
+
