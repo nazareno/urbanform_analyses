@@ -141,9 +141,9 @@ resps.seq.casa <- seqdef(lut.wide[,2:ncol(lut.wide)],
 
 todos_os_plots(resps.seq.casa, "index")
 
-table(seqlength(seqdss(resps.seq)))
-table(seqlength(seqdss(resps.seq))) / NROW(resps.seq)
-mean(seqlength(seqdss(resps.seq)))
+table(seqlength(seqdss(resps.seq.casa)))
+table(seqlength(seqdss(resps.seq.casa))) / NROW(resps.seq.casa)
+mean(seqlength(seqdss(resps.seq.casa)))
 
 
 

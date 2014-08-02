@@ -40,9 +40,10 @@ todos_os_plots <- function(resps.seq, strindex){
 
 # Lendo degree of urbanization de cada casa 
 degrees <- read.csv('dados/House-postcode-degreejunto.txt')
-degrees <- degrees[,c(1, 35, 36)] # TODO MUDAR PARA 4!
+degrees <- degrees[,c(1, 38, 39)] # TODO MUDAR PARA 4!
 degrees$dou <- degrees$Degree.of.urbanization
 degrees$Degree.of.urbanization <- NULL
+levels(degrees$dou) <- cbind(levels(degrees$dou), 999)
 degrees[degrees$dou == ".",]$dou <- 999
 degrees$dou <- as.factor(degrees$dou)
 degrees$dou <- droplevels(degrees$dou)
