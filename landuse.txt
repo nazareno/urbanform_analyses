@@ -1,0 +1,249 @@
+1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+10	Cluster 3	Cluster 3	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+100	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+101	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+102	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+103	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+104	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4
+105	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+106	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+107	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+108	Cluster 1	Cluster 1	Cluster 1	Cluster 1	%	%	%	%	%	%	%	%	%	%	%	%	%	%	%	%
+109	*	*	*	*	*	*	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+11	*	*	*	*	*	*	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+110	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+113	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+114	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	%	%	%	%	%	%	%	%	%	%	%	%
+115	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+117	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	%	%	%	%	%	%	%	%	%	%
+12	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+120	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+121	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+122	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+124	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+125	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+126	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4
+130	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 3	Cluster 3	Cluster 3
+131	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+133	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+137	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+139	Cluster 1	Cluster 1	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4
+14	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 4	Cluster 4	Cluster 4	Cluster 4
+140	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+142	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+144	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+145	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 2	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+147	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+148	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 2
+149	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+15	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+150	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	*	*	*	*	*	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+151	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+155	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	%	%	%	%	%	%	%	%	%	%	%	%
+156	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+157	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+158	Cluster 1	Cluster 1	Cluster 1	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+16	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+160	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	%	%	%	%	%	%	%	%	%	%	%	%	%	%
+161	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+162	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+163	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+164	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+166	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1
+168	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1
+169	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	%	%	%
+17	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+170	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+172	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+173	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 2	Cluster 2	Cluster 2
+174	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+175	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+176	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1
+179	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	%	%	%	%	%	%	%	%	%
+18	*	*	*	*	*	*	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+180	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+181	*	*	*	*	*	*	*	*	*	*	*	Cluster 3	Cluster 3	Cluster 3	Cluster 1	%	%	%	%	%
+183	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+185	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 2	Cluster 2
+187	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+188	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+189	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+19	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+190	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+191	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+192	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+194	*	*	*	*	*	*	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+196	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+197	*	*	*	*	*	*	*	*	*	*	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+198	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+199	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 2
+2	*	*	*	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+20	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+200	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+202	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 2	Cluster 2	Cluster 2
+203	*	*	*	*	*	*	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4
+205	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+207	*	*	*	*	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+209	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+210	*	*	*	*	*	*	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+211	*	*	*	*	*	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+212	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+215	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+216	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 1	Cluster 1	Cluster 1	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+217	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+218	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+22	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+222	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+223	*	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+224	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+225	*	*	*	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+227	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+228	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+229	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+23	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+230	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+231	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+232	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+234	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+235	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+236	Cluster 1	Cluster 1	Cluster 1	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+237	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+238	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+239	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+240	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+241	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+242	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+243	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+245	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+246	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+247	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+248	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+249	Cluster 3	Cluster 3	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4
+25	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+250	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 1
+251	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+254	*	*	*	*	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+255	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+256	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+258	*	*	*	*	*	*	Cluster 3	Cluster 3	Cluster 1	Cluster 1	Cluster 3	Cluster 3	Cluster 3	*	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+259	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 1	Cluster 1
+264	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+265	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+266	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	%	%	%	%	%	%	%	%	%	%	%	%	%	%
+267	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+268	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+27	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+271	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+272	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+273	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+274	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+275	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+276	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+278	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+280	Cluster 2	Cluster 2	Cluster 1	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+282	Cluster 1	Cluster 1	Cluster 1	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+283	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	%	%	%	%	%	%	%	%	%	%	%	%	%
+284	*	*	*	*	*	*	*	*	Cluster 2	%	%	%	%	%	%	%	%	%	%	%
+285	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+286	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+287	*	*	*	*	*	*	*	*	*	*	*	Cluster 4	Cluster 4	Cluster 4	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+288	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1
+289	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+29	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+291	*	*	*	*	*	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+292	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 3	Cluster 3
+293	*	*	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+295	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+296	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+297	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+298	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+299	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+3	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+30	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+300	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+301	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+303	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+304	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+306	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+309	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+31	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4
+310	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 1	Cluster 1	Cluster 1
+311	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 2
+312	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+315	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+317	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+319	*	*	*	*	*	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+32	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 2
+320	*	*	*	*	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+321	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	%	%	%	%	%	%
+322	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+324	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+325	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+326	*	*	*	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4
+328	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+329	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+33	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+330	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+332	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	%	%	%	%	%	%
+335	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+336	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+338	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+339	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+34	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+340	*	*	*	*	*	*	*	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+341	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+343	*	*	*	*	*	*	*	*	*	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	%
+344	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+345	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1
+346	Cluster 3	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+348	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+35	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+350	Cluster 3	Cluster 3	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+36	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+38	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+39	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 4	Cluster 4	Cluster 4	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+40	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+42	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+43	*	*	*	*	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 1	%	%	%	%	%	%	%	%	%	%
+44	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+45	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+47	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+48	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+49	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 2	Cluster 2	Cluster 2
+50	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 3	Cluster 3
+51	*	*	*	*	*	*	Cluster 3	Cluster 3	Cluster 3	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+52	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+53	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+54	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	%
+55	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+56	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4
+57	*	*	*	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+58	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+59	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	%	%	%	%
+60	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+61	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4	Cluster 4
+62	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+63	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 2	Cluster 2	Cluster 2
+64	*	*	*	*	*	*	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+69	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 4	Cluster 4	Cluster 4	Cluster 4
+72	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+73	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3
+75	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+76	Cluster 4	Cluster 4	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+79	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+8	*	*	*	*	*	*	*	*	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 3	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+80	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+81	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 3	Cluster 3	Cluster 3
+82	*	*	*	*	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+83	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 2	Cluster 2	Cluster 2
+85	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+86	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1
+88	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
+9	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+90	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 2	Cluster 2	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 2	Cluster 2
+91	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+94	Cluster 2	Cluster 2	Cluster 2	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+95	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	%	%	%	%	%	%	%	%	%	%	%	%
+96	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1
+97	*	*	*	*	*	*	*	*	*	*	*	*	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 1	Cluster 3	Cluster 3	Cluster 3
+98	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2	Cluster 2
