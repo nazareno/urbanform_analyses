@@ -8,6 +8,7 @@ require("cluster")
 # a linha abaixo é diferente para meus dois computadores
 setwd('/Users/nazareno/Documents/workspace/urbanform_analyses')
 source("../lifecourse_analyses/mobility_functions.R")
+source("./seq_analysis_constants.R")
 
 get_all_cities_lc <- function(){
   tolower(c("Albrandswaard", "Barendrecht", "Bernisse", "Binnenmaas", "Brielle", "Capelle aan den Ijssel", 
@@ -107,10 +108,7 @@ resps.f.long$verv1werk <- NULL
 resps.f.long <- merge(resps.f.long, lut, by = c("ID", "time"))
 
 todos_os_plots <- function(resps.seq, strindex){
-  states_pal = c("#66c2a5",
-                 "#fc8d62",
-                 "#8da0cb",
-                 "#e78ac3") # missing
+  states_pal = LU_PAL # from the seq analysis constants file
   
   pdf(paste0("lu-abs-",strindex,"-exemplo.pdf"), width = 6, height = 4 )
   seqiplot(resps.seq, border = NA, withlegend = "right", cex.legend = 0.5, cpal = states_pal, missing.color = "white")
