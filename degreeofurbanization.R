@@ -6,15 +6,11 @@ require("TraMineR")
 require("reshape2")
 
 setwd('/Users/nazareno/Documents/workspace/urbanform_analyses')
+source("./seq_analysis_constants.R")
 source("../lifecourse_analyses/mobility_functions.R")
 
 todos_os_plots <- function(resps.seq, strindex){
-  states_pal = c("#810f7c", 
-                 "#8856a7",
-                 "#8c96c6",
-                 "#b3cde3", 
-                 "#edf8fb",
-                 "#ffffff") # missing
+  states_pal = DOU_PAL # from the constants file
   
   pdf(paste0("uf-abs-",strindex,"-exemplo.pdf"), width = 6, height = 4 )
   seqiplot(resps.seq, border = NA, withlegend = "right", cex.legend = 0.5, cpal = states_pal, missing.color = "white")
@@ -40,13 +36,18 @@ todos_os_plots <- function(resps.seq, strindex){
 
 # Lendo degree of urbanization de cada casa 
 degrees <- read.csv('dados/House-postcode-degreejunto.txt')
-degrees <- degrees[,c(1, 38, 39)] # TODO MUDAR PARA 4!
+degrees <- degrees[,c(4, 38, 39)] # Mudei para usar o RespondentID. 
+degrees$ID <- degrees$Respondent_ID
+degrees$Respondent_ID <- NULL
 degrees$dou <- degrees$Degree.of.urbanization
 degrees$Degree.of.urbanization <- NULL
 levels(degrees$dou) <- cbind(levels(degrees$dou), 999)
 degrees[degrees$dou == ".",]$dou <- 999
 degrees$dou <- as.factor(degrees$dou)
 degrees$dou <- droplevels(degrees$dou)
+
+# fix some duplicates
+degrees <- degrees[c(-43, -135, -749, -750),]
 
 degrees.wide <- dcast(degrees, ID ~ House, value.var = "dou" )
 
@@ -56,7 +57,8 @@ resps.f.long <- ler_e_corrigir_casas(data_file)
 degrees$time <- degrees$House
 degrees$House <- NULL
 resps.f.long$verv1werk <- NULL
-resps.f.long <- merge(resps.f.long, degrees, by = c("ID", "time"))
+resps.f.long <- merge(resps.f.long, degrees, by = c("ID", "time"), all.x = TRUE)
+resps.f.long$dou <- replace(resps.f.long$dou, is.na(resps.f.long$dou), 999)
 
 # Distribuição do número de estados diferentes:
 numbers_of_states <- ddply(resps.f.long[,c(1,6)], .(ID), summarise, count = length(unique(dou)))
@@ -65,10 +67,10 @@ table(numbers_of_states$count) / total_respondents
 print(paste("média: ", mean(numbers_of_states$count)))
 
 # Criando sequências para o DOU baseado em casas
-degrees.seq <- seqformat(degrees, id = "ID", 
+degrees.seq <- seqformat(resps.f.long, id = "ID", 
                        from = "SPELL", to = "STS", 
                        process = FALSE, 
-                       begin = "beggebeurt", end = "endgebeurt", status = "dou")
+                       begin = "woonbeg", end = "woonend", status = "dou")
 
 state_labels.dou <- c("1", "2", "3", "4", "5", "missing")
 
@@ -127,7 +129,7 @@ resps.seq.pe <- seqdef(resps.seq,
 
 
 resps.seq.e <- seqecreate(resps.seq.pe)
-seqefsub(resps.seq.e, minSupport = 5, maxK = 1)
+seqefsub(resps.seq.e, minSupport = 3, maxK = 1)
 
 resps.ldist <- seqistatd(resps.seq)
 n.states <- apply(resps.ldist,1,function(x) sum(x != 0))
