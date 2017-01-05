@@ -5,8 +5,8 @@ require("ggplot2")
 require("GGally")
 require("cluster")
 
-# a linha abaixo é diferente para meus dois computadores
-setwd('/Users/nazareno/Documents/workspace/urbanform_analyses')
+# gambiarra para a dependência de código entre análises de lifecourse e urban form
+setwd('../urbanform_analyses')
 source("../lifecourse_analyses/mobility_functions.R")
 source("./seq_analysis_constants.R")
 
@@ -58,13 +58,6 @@ pdf("figures/scatterplot-matrix-lu.pdf", width = 20, height = 20)
 ggpairs(na.omit(lu), columns = 2:17)
 dev.off()
 #dev.copy(pdf, "scatterplot-matrix-lu.pdf", width = 16, height = 12)
-
-capwords <- function(s, strict = FALSE) {
-  cap <- function(s) paste(toupper(substring(s, 1, 1)),
-{s <- substring(s, 2); if(strict) tolower(s) else s},
-sep = "", collapse = " " )
-sapply(strsplit(s, split = " "), cap, USE.NAMES = !is.null(names(s)))
-}
 
 # Tentamos essa opção, mas fez menos sentido: 
 #clusters = agnes(lu[,2:17], stand = TRUE, method = "ward")
@@ -142,8 +135,6 @@ todos_os_plots(resps.seq.casa, "index")
 table(seqlength(seqdss(resps.seq.casa)))
 table(seqlength(seqdss(resps.seq.casa))) / NROW(resps.seq.casa)
 mean(seqlength(seqdss(resps.seq.casa)))
-
-
 
 # DOU baseado em idade
 resps.f.long.idade <- resps.f.long[!is.na(resps.f.long$geborenjaar) & resps.f.long$geborenjaar != 999,]

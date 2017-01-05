@@ -1,11 +1,12 @@
-require("plyr")
+library("plyr")
 require("TraMineR")
 require("reshape2")
 require("ggplot2")
 require("GGally")
 require("RColorBrewer")
+require(cluster)
 
-setwd('/Users/nazareno/Documents/workspace/urbanform_analyses')
+setwd('../urbanform_analyses')
 source("../lifecourse_analyses/mobility_functions.R")
 
 OUTPUT_DIR="figures/"
@@ -51,11 +52,34 @@ theme_set(theme_bw())
 COLS_TO_USE = c(4, 39, 27:36, 26)
 distances <- read.csv('dados/House-postcode-degreejunto.txt')
 distances <- distances[,COLS_TO_USE]
-distances <- rename(distances, c(Respondent_ID = "ID"))
+distances <- plyr::rename(distances, c(Respondent_ID = "ID"))
 distances <- corrigir_distancias(distances)
 distances.long <- melt(distances, id.vars = c("ID", "House"))
 # m -> km
 distances.long$value <- distances.long$value / 1000
+
+#-----------------
+# Create a cluster that categorizes the set of distances for a house
+#-----------------
+clustering = agnes(log(distances[,3:12]), stand = TRUE, method = "ward")
+clusters <- cutree(clustering, 3) # 3 ou 7?
+table(clusters)
+dists_w_clusters <- distances
+#dists_w_clusters$cluster <- paste("Cluster", clusters)
+dists_w_clusters$cluster <- factor(clusters, levels = 1:3,  labels = c("Urban", "Suburban", "Rural"))
+dists_w_clusters.long <- melt(dists_w_clusters, id.vars = c("ID", "House", "cluster"))
+levels(dists_w_clusters.long$variable) <- capwords(levels(dists_w_clusters.long$variable), strict = TRUE)
+levels(dists_w_clusters.long$variable) <- gsub("_", " ", levels(dists_w_clusters.long$variable))
+
+pdf("distances-clusters-hclust-ward-3.pdf", width = 10, height = 15)
+ggplot(dists_w_clusters.long, aes(x=variable, y = value / 1000, colour=variable)) +
+  scale_color_brewer(palette="Set3") + 
+  geom_point(alpha = 0.3, position = position_jitter(width = .2)) +
+  facet_grid(cluster ~. ) + geom_boxplot(alpha = 0.7, outlier.colour = dists_w_clusters$variable) + 
+  coord_flip()
+dev.off()
+# End of clustering
+#-----------------
 
 cdf <- ddply(distances.long, "variable", summarise, value.mean=mean(value, na.rm = TRUE))
 
@@ -129,7 +153,7 @@ resps.f.long.lido$time <- as.factor(resps.f.long.lido$time)
 distances <- read.csv('dados/House-postcode-degreejunto.txt')
 # TODO: isso está duplicado. refatorar.
 distances <- distances[,COLS_TO_USE]
-distances <- rename(distances, c(Respondent_ID = "ID"))
+distances <- plyr::rename(distances, c(Respondent_ID = "ID"))
 distances <- corrigir_distancias(distances)
 # TIRANDO SUBRAY E TRAM
 distances$subway_distance<- NULL
@@ -144,16 +168,25 @@ resps.f.long[,6:13] <- resps.f.long[,6:13] / 1000
 distances.all <- melt(resps.f.long, id.vars = 1:5, measure.vars= 6:13)
 distances.all <- adiciona_fator_niveldedistancia(distances.all)
 distances.all$value <- NULL
-distances.all <- rename(distances.all, c(variable = "distance", part = "value",  time = "house"))
+distances.all <- plyr::rename(distances.all, c(variable = "distance", part = "value",  time = "house"))
 # remover duplicata que aparece aqui
 distances.all <- subset(distances.all, !duplicated(distances.all))
 distances.all$value <- factor(distances.all$value, rev(levels(distances.all$value)))
 
+## MERGE CLUSTERS DE DISTANCIAS
+dists_clusts_to_merge <- dists_w_clusters[, c("ID", "House", "cluster")]
+dists_clusts_to_merge <- plyr::rename(dists_clusts_to_merge, c(House="house"))
+clusters_as_dist <- merge(dists_clusts_to_merge, unique(distances.all[, 1:5]))
+clusters_as_dist <- plyr::rename(clusters_as_dist, c(cluster="value"))
+clusters_as_dist$distance <- "Clustered distance"
+distances.all <- rbind(distances.all,  clusters_as_dist)
+
 plot_distance_sequence <- function(distances.all, distance_focused, pal){
-  states_alph <- levels(distances.all$value)
-  states_pal <- rev(brewer.pal(6, pal))
-  
   focused_data <- subset(distances.all, distance == distance_focused)
+  focused_data$value <- droplevels(focused_data$value)
+  
+  states_alph <- levels(focused_data$value)
+  states_pal <- rev(brewer.pal(length(states_alph), pal))
   
   # POR ANO
   resps.seq <- seqformat(focused_data, id = "ID", 
@@ -191,8 +224,10 @@ plot_distance_sequence <- function(distances.all, distance_focused, pal){
                         alphabet = states_alph)
   just_the_plots(resps.seq.i, paste0(distance_focused, "-age"), states_pal)  
   
+  save(resps.seq.i, file=paste0("distances-seq-", distance_focused, ".rData"))
+  
   # POR CASA
-  focused_wide <- dcast(focused_data, ID ~ house, value.var = "value" )
+  focused_wide <- dcast(unique(focused_data), ID ~ house, value.var = "value" )
   resps.seq.casa <- seqdef(focused_wide[,2:ncol(focused_wide)], 
                            id = focused_wide$ID, 
                            alphabet = states_alph)
@@ -224,7 +259,8 @@ print_event_analysis <- function(focused_data){
   
   resps.seq.e <- seqecreate(resps.seq.pe)
   print("** Event analysis:")
-  print(seqefsub(resps.seq.e, minSupport = 5, maxK = 1))
+  #print(seqefsub(resps.seq.e, minSupport = 5, maxK = 1))
+  print(seqefsub(resps.seq.e, minSupport = 1, maxK = 1))
   #resps.ldist <- seqistatd(resps.seq)
   #n.states <- apply(resps.ldist,1,function(x) sum(x != 0))
   
@@ -247,6 +283,10 @@ just_the_plots <- function(resps.seq, distance_focused, states_pal){
   seqdplot(resps.seq, withlegend = "right", cex.legend = 0.5, cpal = states_pal)
   dev.off()
 }
+
+plot_distance_sequence(distances.all, 
+                       distance_focused = "Clustered distance", 
+                       pal = "YlGn")
 
 plot_distance_sequence(distances.all, 
                        distance_focused = "ic_distance", 
