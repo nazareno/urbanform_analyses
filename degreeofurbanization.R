@@ -5,7 +5,7 @@ require("plyr")
 require("TraMineR")
 require("reshape2")
 
-setwd('/Users/nazareno/Documents/workspace/urbanform_analyses')
+setwd('../urbanform_analyses')
 source("./seq_analysis_constants.R")
 source("../lifecourse_analyses/mobility_functions.R")
 
@@ -51,11 +51,12 @@ degrees <- degrees[c(-43, -135, -749, -750),]
 
 degrees.wide <- dcast(degrees, ID ~ House, value.var = "dou" )
 
+degrees$time <- degrees$House
+degrees$House <- NULL
+
 # Lendo demais dados dos respondents para pegar início e fim das casas e idades
 data_file = "dados/verhuisgeschiedenis_350.csv"
 resps.f.long <- ler_e_corrigir_casas(data_file)
-degrees$time <- degrees$House
-degrees$House <- NULL
 resps.f.long$verv1werk <- NULL
 resps.f.long <- merge(resps.f.long, degrees, by = c("ID", "time"), all.x = TRUE)
 resps.f.long$dou <- replace(resps.f.long$dou, is.na(resps.f.long$dou), 999)
